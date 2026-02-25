@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "echo 'Server build ready'"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
