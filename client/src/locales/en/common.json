@@ -1,0 +1,228 @@
+{
+    "navigation": {
+        "dashboard": "Dashboard",
+        "services": "Services",
+        "calendar": "Calendar",
+        "analytics": "Analytics",
+        "billing": "Billing",
+        "clients": "Clients",
+        "settings": "Settings",
+        "logout": "Logout"
+    },
+    "common": {
+        "save": "Save Changes",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "add": "Add",
+        "loading": "Loading...",
+        "search": "Search...",
+        "no_results": "No results found",
+        "success": "Success",
+        "error": "Error",
+        "actions": "Actions",
+        "status": "Status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "saving": "Saving..."
+    },
+    "dashboard": {
+        "welcome": "Welcome back",
+        "subtitle": "Premium Barbershop Management",
+        "overview_title": "Dashboard Overview",
+        "overview_subtitle": "Welcome back, {{name}}. Here's your business at a glance.",
+        "stats": {
+            "revenue": "Total Revenue",
+            "bookings": "Total Bookings",
+            "clients": "Active Clients",
+            "avg_ticket": "Avg. Ticket"
+        },
+        "charts": {
+            "revenue_performance": "Revenue Performance",
+            "service_distribution": "Service Distribution",
+            "live_preview": "LIVE PREVIEW"
+        }
+    },
+    "clients": {
+        "title": "Clients",
+        "subtitle": "Manage your relationship with your customers.",
+        "add_client": "Add Client",
+        "filters": "Filters",
+        "total_clients": "Total Clients",
+        "active_month": "Active this month",
+        "total_revenue": "Total Revenue",
+        "search_placeholder": "Search by name, email or phone...",
+        "showing_results": "Showing {{count}} results",
+        "table": {
+            "client": "Client",
+            "contact": "Contact",
+            "stats": "Stats",
+            "added": "Added",
+            "bookings": "bookings"
+        },
+        "empty": {
+            "title": "No clients found",
+            "description": "Start building your customer base by adding your first client.",
+            "button": "Add your first client"
+        },
+        "form": {
+            "add_title": "Add New Client",
+            "edit_title": "Edit Client",
+            "add_desc": "Register a new customer to your database",
+            "edit_desc": "Update client information",
+            "label_name": "Client Name",
+            "label_email": "Email Address",
+            "label_phone": "Phone Number",
+            "label_status": "Status",
+            "label_notes": "Notes (Optional)",
+            "placeholder_name": "Full Name",
+            "placeholder_notes": "Any specific details or preferences...",
+            "submit_create": "Create Client",
+            "submit_update": "Update Client"
+        },
+        "delete_confirm": "Are you sure you want to delete this client?",
+        "validation": {
+            "name_min": "Name must be at least 2 characters",
+            "email_invalid": "Invalid email address"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Manage your shop profile and account security.",
+        "tabs": {
+            "profile": "Profile & Shop",
+            "security": "Account Security"
+        },
+        "profile": {
+            "title": "Shop Identity",
+            "label_name": "Your Name",
+            "label_shop": "Shop Name",
+            "label_email": "Email (Account ID)",
+            "placeholder_name": "Admin Name",
+            "placeholder_shop": "Business Name",
+            "success": "Profile updated successfully!",
+            "error": "Failed to update profile",
+            "validation": {
+                "shop_min": "Shop name must be at least 2 characters"
+            }
+        },
+        "security": {
+            "title": "Security & Privacy",
+            "label_current": "Current Password",
+            "label_new": "New Password",
+            "label_confirm": "Confirm New Password",
+            "placeholder_pass": "••••••••",
+            "success": "Password updated successfully!",
+            "error": "Failed to update password",
+            "submit": "Update Password",
+            "validation": {
+                "current_req": "Current password is required",
+                "new_min": "New password must be at least 6 characters",
+                "confirm_req": "Please confirm your new password",
+                "match": "Passwords don't match"
+            }
+        }
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "Manage your barbershop's menu and treatments.",
+        "add_service": "Add Service",
+        "delete_confirm": "Are you sure you want to delete this service?",
+        "no_description": "No description provided.",
+        "duration_unit": "min",
+        "empty": {
+            "title": "No services found",
+            "description": "Start by adding your first treatment to the menu.",
+            "button": "Add your first service"
+        },
+        "form": {
+            "add_title": "Add New Service",
+            "edit_title": "Edit Service",
+            "label_name": "Service Name",
+            "label_description": "Description",
+            "label_duration": "Duration (min)",
+            "label_price": "Price ($)",
+            "placeholder_name": "e.g. Classic Haircut",
+            "placeholder_description": "Tell clients what to expect...",
+            "submit_create": "Create Service",
+            "submit_update": "Update Service",
+            "validation": {
+                "name_min": "Name must be at least 2 characters",
+                "duration_req": "Duration is required",
+                "price_positive": "Price must be positive"
+            }
+        }
+    },
+    "calendar": {
+        "title": "Schedule",
+        "subtitle": "Manage your appointments and availability.",
+        "today": "Today",
+        "new_booking": "New Booking",
+        "appointment": {
+            "title": "New Appointment",
+            "label_client": "Client Name",
+            "label_service": "Service",
+            "label_datetime": "Date & Time",
+            "label_email": "Email Address",
+            "label_notes": "Notes",
+            "placeholder_client": "e.g. John Doe",
+            "placeholder_email": "john@example.com",
+            "placeholder_notes": "Any special requests or details...",
+            "select_service": "Select a service...",
+            "summary": "Summary",
+            "confirm": "Confirm Appointment",
+            "booking": "Booking...",
+            "validation": {
+                "name_req": "Name is required",
+                "email_req": "Valid email is required",
+                "service_req": "Please select a service",
+                "datetime_req": "Date and time are required"
+            }
+        }
+    },
+    "analytics": {
+        "title": "Analytics Dashboard",
+        "subtitle": "Deep dive into your business performance and growth.",
+        "export_pdf": "Export PDF Report",
+        "revenue_trends": "Revenue Trends",
+        "service_distribution": "Service Distribution",
+        "pro_feature": "Pro Feature",
+        "stats": {
+            "revenue": "Total Revenue",
+            "bookings": "Bookings",
+            "clients": "Total Clients",
+            "avg_ticket": "Avg. Ticket"
+        }
+    },
+    "billing": {
+        "title": "Billing & Subscription",
+        "subtitle": "Manage your plan, payment methods, and invoices with ease.",
+        "membership": "{{plan}} Membership",
+        "pro_name": "Pro Subscription",
+        "free_name": "Free Tier",
+        "pro_desc": "Your subscription is active. You have access to all premium features including advanced analytics, PDF reports, and priority support.",
+        "free_desc": "You are currently on the free tier. Upgrade to Pro to unlock unlimited appointments, advanced insights, and grow your business today.",
+        "manage": "Manage Subscription",
+        "connecting": "Connecting...",
+        "upgrade": "Upgrade to Pro Now",
+        "next_billing": "Next Billing Date",
+        "auto_renew": "Auto-renew active",
+        "payment_method": "Payment Method",
+        "payment_default": "Default",
+        "perks_title": "Pro Membership Perks",
+        "perks": [
+            "Unlimited Client Appointments",
+            "Interactive Revenue Analytics",
+            "Professional PDF Growth Reports",
+            "Custom Barber Shop Branding",
+            "Multi-employee Shift Management",
+            "Inventory & Products Tracking"
+        ],
+        "stripe_note": "Subscription handled securely by Stripe. Cancel anytime through the billing portal."
+    },
+    "premium": {
+        "title": "Premium Feature",
+        "description": "Upgrade to Pro to unlock advanced tools and insights.",
+        "upgrade": "Upgrade Now"
+    }
+}

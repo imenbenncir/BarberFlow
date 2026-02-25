@@ -1,0 +1,228 @@
+{
+    "navigation": {
+        "dashboard": "Tableau de bord",
+        "services": "Services",
+        "calendar": "Calendrier",
+        "analytics": "Analytique",
+        "billing": "Facturation",
+        "clients": "Clients",
+        "settings": "Paramètres",
+        "logout": "Déconnexion"
+    },
+    "common": {
+        "save": "Enregistrer les modifications",
+        "cancel": "Annuler",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "add": "Ajouter",
+        "loading": "Chargement...",
+        "search": "Rechercher...",
+        "no_results": "Aucun résultat trouvé",
+        "success": "Succès",
+        "error": "Erreur",
+        "actions": "Actions",
+        "status": "Statut",
+        "active": "Actif",
+        "inactive": "Inactif",
+        "saving": "Enregistrement..."
+    },
+    "dashboard": {
+        "welcome": "Bon retour",
+        "subtitle": "Gestion de salon de coiffure premium",
+        "overview_title": "Aperçu du tableau de bord",
+        "overview_subtitle": "Bon retour, {{name}}. Voici un aperçu de votre activité.",
+        "stats": {
+            "revenue": "Chiffre d'affaires total",
+            "bookings": "Total des réservations",
+            "clients": "Clients actifs",
+            "avg_ticket": "Panier moyen"
+        },
+        "charts": {
+            "revenue_performance": "Performance des revenus",
+            "service_distribution": "Répartition des services",
+            "live_preview": "APERÇU EN DIRECT"
+        }
+    },
+    "clients": {
+        "title": "Clients",
+        "subtitle": "Gérez votre relation avec vos clients.",
+        "add_client": "Ajouter un client",
+        "filters": "Filtres",
+        "total_clients": "Total des clients",
+        "active_month": "Actifs ce mois-ci",
+        "total_revenue": "Chiffre d'affaires total",
+        "search_placeholder": "Rechercher par nom, e-mail ou téléphone...",
+        "showing_results": "Affichage de {{count}} résultats",
+        "table": {
+            "client": "Client",
+            "contact": "Contact",
+            "stats": "Stats",
+            "added": "Ajouté",
+            "bookings": "réservations"
+        },
+        "empty": {
+            "title": "Aucun client trouvé",
+            "description": "Commencez à constituer votre base de clients en ajoutant votre premier client.",
+            "button": "Ajouter votre premier client"
+        },
+        "form": {
+            "add_title": "Ajouter un nouveau client",
+            "edit_title": "Modifier le client",
+            "add_desc": "Enregistrez un nouveau client dans votre base de données",
+            "edit_desc": "Mettre à jour les informations du client",
+            "label_name": "Nom du client",
+            "label_email": "Adresse e-mail",
+            "label_phone": "Numéro de téléphone",
+            "label_status": "Statut",
+            "label_notes": "Notes (Optionnel)",
+            "placeholder_name": "Nom complet",
+            "placeholder_notes": "Détails ou préférences spécifiques...",
+            "submit_create": "Créer le client",
+            "submit_update": "Mettre à jour le client"
+        },
+        "delete_confirm": "Voulez-vous vraiment supprimer ce client ?",
+        "validation": {
+            "name_min": "Le nom doit comporter au moins 2 caractères",
+            "email_invalid": "Adresse e-mail invalide"
+        }
+    },
+    "settings": {
+        "title": "Paramètres",
+        "subtitle": "Gérez votre profil de boutique et la sécurité de votre compte.",
+        "tabs": {
+            "profile": "Profil & Boutique",
+            "security": "Sécurité du compte"
+        },
+        "profile": {
+            "title": "Identité de la boutique",
+            "label_name": "Votre nom",
+            "label_shop": "Nom de la boutique",
+            "label_email": "E-mail (ID du compte)",
+            "placeholder_name": "Nom de l'administrateur",
+            "placeholder_shop": "Nom de l'entreprise",
+            "success": "Profil mis à jour avec succès !",
+            "error": "Échec de la mise à jour du profil",
+            "validation": {
+                "shop_min": "Le nom de la boutique doit comporter au moins 2 caractères"
+            }
+        },
+        "security": {
+            "title": "Sécurité & Confidentialité",
+            "label_current": "Mot de passe actuel",
+            "label_new": "Nouveau mot de passe",
+            "label_confirm": "Confirmer le nouveau mot de passe",
+            "placeholder_pass": "••••••••",
+            "success": "Mot de passe mis à jour avec succès !",
+            "error": "Échec de la mise à jour du mot de passe",
+            "submit": "Mettre à jour le mot de passe",
+            "validation": {
+                "current_req": "Le mot de passe actuel est requis",
+                "new_min": "Le nouveau mot de passe doit comporter au moins 6 caractères",
+                "confirm_req": "Veuillez confirmer votre nouveau mot de passe",
+                "match": "Les mots de passe ne correspondent pas"
+            }
+        }
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "Gérez le menu et les prestations de votre salon.",
+        "add_service": "Ajouter un service",
+        "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce service ?",
+        "no_description": "Aucune description fournie.",
+        "duration_unit": "min",
+        "empty": {
+            "title": "Aucun service trouvé",
+            "description": "Commencez par ajouter votre première prestation au menu.",
+            "button": "Ajouter votre premier service"
+        },
+        "form": {
+            "add_title": "Ajouter un nouveau service",
+            "edit_title": "Modifier le service",
+            "label_name": "Nom du service",
+            "label_description": "Description",
+            "label_duration": "Durée (min)",
+            "label_price": "Prix (€)",
+            "placeholder_name": "ex. : Coupe classique",
+            "placeholder_description": "Décrivez ce que les clients peuvent attendre...",
+            "submit_create": "Créer le service",
+            "submit_update": "Mettre à jour le service",
+            "validation": {
+                "name_min": "Le nom doit comporter au moins 2 caractères",
+                "duration_req": "La durée est requise",
+                "price_positive": "Le prix doit être positif"
+            }
+        }
+    },
+    "calendar": {
+        "title": "Planning",
+        "subtitle": "Gérez vos rendez-vous et vos disponibilités.",
+        "today": "Aujourd'hui",
+        "new_booking": "Nouvelle réservation",
+        "appointment": {
+            "title": "Nouveau rendez-vous",
+            "label_client": "Nom du client",
+            "label_service": "Service",
+            "label_datetime": "Date & Heure",
+            "label_email": "Adresse e-mail",
+            "label_notes": "Notes",
+            "placeholder_client": "ex. : Jean Dupont",
+            "placeholder_email": "jean@exemple.com",
+            "placeholder_notes": "Demandes spéciales ou détails...",
+            "select_service": "Choisir un service...",
+            "summary": "Résumé",
+            "confirm": "Confirmer le rendez-vous",
+            "booking": "Réservation...",
+            "validation": {
+                "name_req": "Le nom est requis",
+                "email_req": "Un e-mail valide est requis",
+                "service_req": "Veuillez sélectionner un service",
+                "datetime_req": "La date et l'heure sont requises"
+            }
+        }
+    },
+    "analytics": {
+        "title": "Tableau de bord analytique",
+        "subtitle": "Analysez en profondeur les performances et la croissance de votre activité.",
+        "export_pdf": "Exporter le rapport PDF",
+        "revenue_trends": "Tendances des revenus",
+        "service_distribution": "Répartition des services",
+        "pro_feature": "Fonctionnalité Pro",
+        "stats": {
+            "revenue": "Chiffre d'affaires total",
+            "bookings": "Réservations",
+            "clients": "Total des clients",
+            "avg_ticket": "Panier moyen"
+        }
+    },
+    "billing": {
+        "title": "Facturation & Abonnement",
+        "subtitle": "Gérez votre abonnement, vos moyens de paiement et vos factures.",
+        "membership": "Abonnement {{plan}}",
+        "pro_name": "Abonnement Pro",
+        "free_name": "Formule Gratuite",
+        "pro_desc": "Votre abonnement est actif. Vous avez accès à toutes les fonctionnalités premium, y compris les analyses avancées, les rapports PDF et l'assistance prioritaire.",
+        "free_desc": "Vous êtes actuellement sur la formule gratuite. Passez à Pro pour débloquer des rendez-vous illimités, des insights avancés et développez votre activité.",
+        "manage": "Gérer l'abonnement",
+        "connecting": "Connexion...",
+        "upgrade": "Passer à Pro maintenant",
+        "next_billing": "Prochaine date de facturation",
+        "auto_renew": "Renouvellement automatique actif",
+        "payment_method": "Moyen de paiement",
+        "payment_default": "Par défaut",
+        "perks_title": "Avantages de l'abonnement Pro",
+        "perks": [
+            "Rendez-vous clients illimités",
+            "Analyses des revenus interactives",
+            "Rapports PDF de croissance professionnels",
+            "Personnalisation de l'identité du salon",
+            "Gestion des plannings multi-employés",
+            "Suivi des stocks & produits"
+        ],
+        "stripe_note": "Abonnement sécurisé par Stripe. Annulation possible à tout moment via le portail de facturation."
+    },
+    "premium": {
+        "title": "Fonctionnalité Premium",
+        "description": "Passez à Pro pour accéder aux outils avancés et aux insights.",
+        "upgrade": "Passer à Pro"
+    }
+}
